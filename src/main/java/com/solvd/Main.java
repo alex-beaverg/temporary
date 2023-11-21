@@ -12,5 +12,7 @@ public class Main {
         System.out.println(person.getLastName());
         System.out.println(person.getAge());
         System.out.println(person.equals(new Person("Max", "Fox", 25)));
+        System.out.println(new Person("Alex", "Hill", 23).hashCode());
+        System.out.println(new Person("Alex", "Hill", 23).hashCode());
     }
 }

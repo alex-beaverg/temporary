@@ -47,7 +47,10 @@ public class Person {
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, age);
+        int result = firstName == null ? 0 : firstName.hashCode();
+        result = 31 * result + (lastName == null ? 0 : lastName.hashCode());
+        result = 31 * result + age;
+        return result;
     }
 
     @Override
