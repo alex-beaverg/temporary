@@ -5,5 +5,8 @@ public class Main {
         System.out.println("Hello world!");
         Person person = new Person("Alex", "Hill", 35);
         System.out.println(person);
+        person.setFirstName("Max");
+        person.setLastName("Fox");
+        person.setAge(23);
     }
 }
