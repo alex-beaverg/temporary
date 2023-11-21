@@ -2,13 +2,13 @@ package com.solvd;
 
 public class Person {
     private String firstName;
-    private int age;
     private String lastName;
+    private int age;
 
-    public Person(String firstName, int age, String lastName) {
+    public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
-        this.age = age;
         this.lastName = lastName;
+        this.age = age;
     }
 
     public String getFirstName() {
