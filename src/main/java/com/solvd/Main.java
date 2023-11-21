@@ -11,5 +11,6 @@ public class Main {
         System.out.println(person.getFirstName());
         System.out.println(person.getLastName());
         System.out.println(person.getAge());
+        System.out.println(person.equals(new Person("Max", "Fox", 25)));
     }
 }
