@@ -16,5 +16,7 @@ public class Main {
         System.out.println(new Person("Alex", "Hill", 23).hashCode());
         System.out.println(new Person("John", "Hilla", 23).hashCode());
         System.out.println(new Person("Sam", "Hill", 33).hashCode());
+        Person newPerson = new Person("James", "Whiskey", 50);
+        System.out.println(newPerson);
     }
 }
