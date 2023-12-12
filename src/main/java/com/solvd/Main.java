@@ -14,5 +14,10 @@ public class Main {
         System.out.println(person.equals(new Person("Max", "Fox", 25)));
         System.out.println(new Person("Alex", "Hill", 23).hashCode());
         System.out.println(new Person("Alex", "Hill", 23).hashCode());
+        System.out.println(new Person("John", "Hilla", 23).hashCode());
+        System.out.println(new Person("Sam", "Hill", 33).hashCode());
+        Person newPerson = new Person("James", "Whiskey", 50);
+        System.out.println(newPerson);
+        System.out.println(newPerson);
     }
 }
