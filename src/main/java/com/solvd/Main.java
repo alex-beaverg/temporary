@@ -19,5 +19,8 @@ public class Main {
         Person newPerson = new Person("James", "Whiskey", 50);
         System.out.println(newPerson);
         System.out.println(newPerson);
+        System.out.println(newPerson);
+        System.out.println(newPerson);
+        System.out.println(newPerson);
     }
 }
